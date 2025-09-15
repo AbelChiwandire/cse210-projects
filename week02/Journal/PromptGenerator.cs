@@ -18,7 +18,7 @@ public class PromptGenerator
 
     private List<int> _unusedIndices = new List<int>();
 
-    public void Initializer()
+    private void Initializer()
     {
         ResetUnusedIndices();
     }

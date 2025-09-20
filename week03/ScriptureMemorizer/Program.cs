@@ -4,8 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Reference reference = new Reference("John", 3, 16);
-        Scripture scripture = new Scripture(reference, "For God so loved the world that He gave His only Son.");
+        Reference reference = new Reference("Ether", 12, 9, 10);
+        Scripture scripture = new Scripture(reference, "Wherefore, ye may also have hope, and be partakers of the gift, if ye will but have faith. Behold it was by faith that they of old were called after the holy order of God.");
 
         while (true)
         {

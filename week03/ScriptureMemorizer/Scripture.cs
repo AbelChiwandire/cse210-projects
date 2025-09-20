@@ -35,8 +35,8 @@ public class Scripture
             visibleIndexes.RemoveAt(randPosition);           
         }
     }
-
-    public void RevealWords(int count)
+    // Enhancement method. Reveals hidden words.
+    public void RevealRandomWords(int count)
     {
         List<int> hiddenIndexes = new List<int>();
         for (int i = 0; i < _words.Count; i++)

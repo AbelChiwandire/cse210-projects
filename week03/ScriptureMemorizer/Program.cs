@@ -1,3 +1,10 @@
+/*
+Author: Abel Chiwandire
+Purpose: This is a scripture memorization project created to help users memorize scriptures better.
+Enhancements: I added a RevealRandomWords() method in the Scripture class. This method will reveal 
+                some hidden words when the user chooses to use a hint. 
+*/
+
 using System;
 
 class Program
@@ -22,7 +29,7 @@ class Program
                 case "quit":
                     return;
                 case "hint":
-                    scripture.RevealWords(2);
+                    scripture.RevealRandomWords(2);
                     break;
                 default:
                     scripture.HideRandomWords(2);

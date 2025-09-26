@@ -7,7 +7,7 @@ public class Video
     private string _author;
     private int _lengthInSeconds;
 
-    List<Comment> comments;
+    private List<Comment> comments;
 
     public Video(string title, string author, int lenghtInSeconds)
     {
